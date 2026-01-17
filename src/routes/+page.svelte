@@ -37,7 +37,9 @@
         <p class="horario whitespace-nowrap text-center font-bold">
           Lunes - viernes : 8:30 - 20:30 · Sábados : 9:00 - 15:00 y 17:00 - 20:30 · Domingos y festivos: 10:00 - 14:00
         </p>
+       
       </div>
+       <p class="text-red-600 text-center text-[12px]">Prohibida la venta de productos del tabaco a menores de 18 años, conforme a la Ley 28/2005.</p>
       <div class="relative inline-block">
         <img src={portada} alt="portada" class="w-full rounded-xl brightness-75">
       

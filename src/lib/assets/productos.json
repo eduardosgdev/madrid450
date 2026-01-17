@@ -1,0 +1,47 @@
+{
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Collar de cuentas",
+        "precio": 19.9,
+        "moneda": "EUR",
+        "imagen": "/productos/cuentas.jpg"
+      },
+      {
+        "id": 2,
+        "nombre": "Collar de eslabones",
+        "precio": 19.9,
+        "moneda": "EUR",
+        "imagen": "/productos/eslabones.jpg"
+      },
+      {
+        "id": 3,
+        "nombre": "Collar gema verde",
+        "precio": 19.9,
+        "moneda": "EUR",
+        "imagen": "/productos/gema.jpg"
+      },
+      {
+        "id": 4,
+        "nombre": "Pulseras varias",
+        "precio": 15.9,
+        "moneda": "EUR",
+        "imagen": "/productos/pulseras.jpg"
+      },
+      {
+        "id": 5,
+        "nombre": "Encendedor Zippo mate",
+        "precio": 52.9,
+        "moneda": "EUR",
+        "imagen": "/productos/mate.jpg"
+      },
+      {
+        "id": 6,
+        "nombre": "Encendedor Zippo diseño",
+        "precio": 79.9,
+        "moneda": "EUR",
+        "imagen": "/productos/diseno.jpg"
+      }
+    ]
+  }
+  

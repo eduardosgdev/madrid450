@@ -29,7 +29,7 @@
   
     <!-- Menú desplegable en dispositivos móviles -->
     <div class={`lg:hidden ${isOpen ? 'block' : 'hidden'}  text-white  ml-2 text-[16px] font-semibold`}>
-      <a href="/bares" class="block py-2 hover:bg-gray-800">Inicio</a>
+      <a href="/" class="block py-2 hover:bg-gray-800">Inicio</a>
       <a href="/escaparate" class="block py-2 hover:bg-gray-800">Escaparate</a>
       <a href="/aboutus" class="block py-2 hover:bg-gray-800">Nosotros</a>
       <a href="/contacto" class="block py-2 hover:bg-gray-800">Información </a>
