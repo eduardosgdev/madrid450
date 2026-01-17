@@ -10,6 +10,9 @@
     
 
     const portada = "/img/madrid450.png"
+    const abono = "/servicios/abono.webp"
+    const once = "/servicios/once.webp"
+    const amazon = "/servicios/amazon.jpg"
     onMount(async () => {
     const L = await import('leaflet');
 
@@ -47,10 +50,13 @@
             Escaparate
         </a>
       </div>
-    
-    <div id="map" class="h-96 w-full rounded-xl"></div>
-   <h1>Welcome to SvelteKit</h1>
-<p class="font-bold text-green-600">Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>   
+      <div id="map" class="h-96 w-full rounded-xl"></div>
+      <div class="grid grid-cols-2 gap-2 p-2">
+        <img src={abono} alt="abono">
+        <img src={once} alt="once">
+        <img src={amazon} alt="amazon">
+      </div>
+      
 </div>
 
 </main>
