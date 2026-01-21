@@ -13,6 +13,8 @@
     const abono = "/servicios/abono.webp"
     const once = "/servicios/once.webp"
     const amazon = "/servicios/amazon.jpg"
+    const nickel = "/servicios/nickel.jpg"
+    const berger = "/servicios/berger.jpg"
     onMount(async () => {
     const L = await import('leaflet');
 
@@ -52,11 +54,49 @@
             Escaparate
         </a>
       </div>
+      <div class="max-w-5xl mx-auto px-4 py-8">
+  <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 text-center">
+
+    <div class="flex flex-col items-center gap-2 p-4 border rounded-xl hover:bg-gray-100 transition">
+      <span class="text-3xl">🥤</span>
+      <p class="font-medium">Refrescos</p>
+    </div>
+
+    <div class="flex flex-col items-center gap-2 p-4 border rounded-xl hover:bg-gray-100 transition">
+      <span class="text-3xl">🍬</span>
+      <p class="font-medium">Caramelos</p>
+    </div>
+
+    <div class="flex flex-col items-center gap-2 p-4 border rounded-xl hover:bg-gray-100 transition">
+      <span class="text-3xl">📱</span>
+      <p class="font-medium">Recarga móvil</p>
+    </div>
+
+    <div class="flex flex-col items-center gap-2 p-4 border rounded-xl hover:bg-gray-100 transition">
+      <span class="text-3xl">💳</span>
+      <p class="font-medium">Recargas digitales</p>
+    </div>
+
+    <div class="flex flex-col items-center gap-2 p-4 border rounded-xl hover:bg-gray-100 transition">
+      <span class="text-3xl">📡</span>
+      <p class="font-medium">NFC</p>
+    </div>
+
+    <div class="flex flex-col items-center gap-2 p-4 border rounded-xl hover:bg-gray-100 transition">
+      <span class="text-3xl">🐾</span>
+      <p class="font-medium">Animal friendly</p>
+    </div>
+
+  </div>
+</div>
+
       <div id="map" class="h-96 w-full rounded-xl"></div>
-      <div class="grid grid-cols-2 gap-2 p-2">
+      <div class="grid grid-cols-2 gap-3 p-1">
         <img src={abono} alt="abono">
         <img src={once} alt="once">
         <img src={amazon} alt="amazon">
+        <img src={berger} alt="berger">
+        <img src={nickel} alt="nickel">
       </div>
       
 </div>
