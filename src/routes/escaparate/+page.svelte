@@ -25,5 +25,17 @@
         </div>
       {/each}
     </div>
+    <footer class="bg-red-700 text-white px-2 py-2">
+      <div class="flex flex-col sm:flex-row items-center justify-between text-sm">
+        <p>
+          © {new Date().getFullYear()} · Todos los derechos reservados
+        </p>
+    
+        <p class="opacity-80">
+          Desarrollado por Madrid450
+        </p>
+      </div>
+    </footer>
+    
   </main>
   

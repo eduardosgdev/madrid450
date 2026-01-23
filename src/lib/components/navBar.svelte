@@ -17,7 +17,7 @@
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
           </svg>
         </button>
-        <h2 class="font-bold">Madrid 450</h2>
+        <h1 class="font-bold">Estanco Madrid 450</h1>
         <button class="mr-4" on:click={() => goto('/cart')}>
           <svg class="w-8 h-8 text-white dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
@@ -30,10 +30,7 @@
     <!-- Menú desplegable en dispositivos móviles -->
     <div class={`lg:hidden ${isOpen ? 'block' : 'hidden'}  text-white  ml-2 text-[16px] font-semibold`}>
       <a href="/" class="block py-2 hover:bg-gray-800">Inicio</a>
-      <a href="/escaparate" class="block py-2 hover:bg-gray-800">Escaparate</a>
-      <a href="/aboutus" class="block py-2 hover:bg-gray-800">Nosotros</a>
-      <a href="/contacto" class="block py-2 hover:bg-gray-800">Información </a>
-  
+      <a href="/escaparate" class="block py-2 hover:bg-gray-800">Escaparate</a>  
     </div>
     
   </main>
